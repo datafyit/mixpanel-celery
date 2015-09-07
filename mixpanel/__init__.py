@@ -1,6 +1,7 @@
 """Asynchronous event tracking for Mixpanel"""
+from builtins import map
 
-VERSION = (0, 8, 1, 'dev')
+VERSION = (0, 8, 2, 'dev')
 
 __version__ = ".".join(map(str, VERSION[:-1]))
 __release__ = ".".join(map(str, VERSION))
